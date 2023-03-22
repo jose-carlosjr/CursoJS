@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <h2>Já me livrei da maldição</h2>
+
+    <script>
+        var n1 = Number(window.prompt('Digite um número'))
+        //n1 TÁ RECEBENDO O VALOR DO PROMPT, Q VEM EM STRING, POR ISSO O + CONCATENA, ASSIM COMO O n2
+        //PARA CONVERTER O VALOR DE STRING PARA NUMBER UTILIZAR: Number.parseInt ou Number.parseFloat
+        //SE UTILIZAR APENAS Number O JS ENTENDE E EXECUTA CONFORME O NUMERO QUE FOI DESCRITO
+        var n2 = Number(window.prompt('Digite um número'))
+        
+        var soma = n1 + n2
+        window.alert(`A soma entre os valores ${n1} e ${n2} é ${soma.toLocaleString('pt-BR', {style: 'currency', currency: 'YEN'}).replace(',', '.')}`)
+        // UTILIZAR CRASE QUANDO FOR USAR O PLACEHOLDER, VULGO ${}, VISTO QUE A CRASE É A DELIMITAÇÃO DO TEMPLATE STRING ("DIGAMOS FORMATADOR DE STRINGS")
+        //EXEMPLO DE CONVERSÃO PARA STRING: soma.ToString() ou String(soma)
+    </script>
+</body>
+</html>
