@@ -1,0 +1,91 @@
+OPERADORES RELACIONAIS <  >  <=  >=  ==  != 
+
+!IMPORTANTE!------------------------------------
+
+NA REALIZAÇÃO DE CÁLCULOS A ORDEM DOS OPERADORES SÃO
+
+1 ARITMÉTICOS
+2 RELACIONAIS
+3 LÓGICOS
+
+-----------------------------------!IMPORTANTE!
+
+
+IDENTIDADE:
+
+5 == 5    - true
+5 == '5'  - true
+5 === '5' - false
+5 === 5   - true
+
+3 SINAIS DE IGUAL SE REFERE AO VALOR E AO TIPO DA VARIÁVEL. ASSIM COMO O SINAL DE DIFERENTE
+
+5 != '5'  - false
+5 !== '5' - true
+
+!== - 'DESIGUAL RESTRITO'
+
+_________________________________________________
+
+
+OPERADORES LÓGICOS !  &&  ||
+
+!IMPORTANTE!-------------------------------------
+
+ORDEM DOS OPERADORES LÓGICOS
+
+1 - !
+2 - &&
+3 - ||
+
+-------------------------------------!IMPORTANTE!
+
+
+! - NEGAÇÃO
+
+! true - false
+! false - true
+
+&& - CONJUNÇÃO (e)
+
+true && true - true
+true && false - false
+false && true - false
+false && false - false
+
+|| - DISJUNÇÃO (ou)
+
+true || true - true
+true || false - true
+false || true - true
+false || false - false
+
+_________________________________________________
+
+OPERADOR TERNÁRIO ? :
+
+CRIA UMA CONDIÇÃO, EX:
+
+var media = 6
+
+media >= 5? 'APROVADO':'REPROVADO'
+
+'APROVADO' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
