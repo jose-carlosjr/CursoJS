@@ -1,0 +1,73 @@
+DOM
+
+UM CONJUNTO DE OBJETOS DENTRO DO NAVEGADOR QUE DÁ ACESSO AOS COMPONENTES INTERNOS DE UM SITE.
+
+ELE ESTÁ PRESENTE QUANDO RODA JAVASCRIPT DENTRO DO NAVEGADOR.
+
+ÁRVORE DOM
+
+window - raíz (tudo relacionado a js está dentro de window)
+
+DENTRO DE window TEM VÁRIOS OBJETOS. EX:
+
+location - diz qual a localização do site, a url, qual a página atual, qual a page anterior
+ 
+document - se refere ao documento atual
+
+history - guarda tudo que é feito, de onde vc veio pra onde vc vai... Pra facilitar a navegação
+
+------------------------------------------
+HIERARQUIA:
+
+head e body são filhos (child) de html (parent)
+
+html é child de document
+
+E POR AÍ VAI
+-------------------------------------------
+
+DENTRO DE document TEM: 
+
+html > head e body 
+
+head > meta, title
+
+body > h1 p div etc
+
+ex: DENTRO DE UMA TAG <p> TEM UMA TAG <strong> ENTÃO <strong> É CHILD DE <p> QUE NESSE CASO É PARENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

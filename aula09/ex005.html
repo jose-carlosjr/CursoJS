@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: #287d93;
+            color: white;
+            font: normal 18px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando exercícios com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em javascript</p>
+    <div id="msg">Clique em mim</div>
+    <br>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.writeln('Está escrito isso aqui: ' + p1.innerText)
+        
+        corpo.style.backgroundColor = '#000'
+        p1.style.color = '#ff0000'
+
+        var p2 = window.document.getElementsByTagName('p')[1]
+        window.document.writeln(p2.innerHTML)
+
+        var d = window.document.getElementById('msg')
+        d.style.backgroundColor = '#0000ff'
+        //d.innerText = 'Estou aguardando...' OU
+        window.document.getElementById('msg').innerText = "Estou aguardando..."
+
+        // innerText captura somente o texto
+        // innerHTML captura tudo, inclusive as tags "filhas"
+
+        var esp = window.document.querySelector('div#msg')
+        esp.style.padding = '10px'
+    </script>
+</body>
+</html>
