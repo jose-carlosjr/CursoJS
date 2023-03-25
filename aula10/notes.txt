@@ -1,0 +1,42 @@
+EVENTOS DOM
+
+Exemplos:
+
+- mouseenter: quando eu passo o mouse em cima do objeto
+
+- mousemove: quando eu movimento o mouse em cima do objeto
+
+- mousedown: quando eu pressiono o botão do mouse
+
+- mouseup: quando eu solto o botão do mouse
+
+- click: quando eu dou um simples click no mouse
+
+- mouseout: quando eu retiro o mouse de cima do objeto
+
+___________________________________________________
+
+FUNÇÃO:
+
+É UM CONJUNTO DE CÓDIGOS QUE SERÃO EXECUTADAS APENAS QUANDO O EVENTO OCORRER.
+
+ESSE CONJUNTO DE CÓDIGOS FICA DENTRO DE UM "BLOCO", QUE É DELIMITADO POR CHAVES {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
