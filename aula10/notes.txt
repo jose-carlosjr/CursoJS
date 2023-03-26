@@ -22,6 +22,11 @@ FUNÇÃO:
 
 ESSE CONJUNTO DE CÓDIGOS FICA DENTRO DE UM "BLOCO", QUE É DELIMITADO POR CHAVES {}
 
+function ação(parâmetros) {
+
+
+}
+
 
 
 
