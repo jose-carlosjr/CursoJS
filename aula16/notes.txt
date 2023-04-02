@@ -1,0 +1,49 @@
+Javascript
+
+Funções:
+
+toda função PODE ter uma 'chamada', com 'parâmetros que realizam uma 'ação' e gera um 'retorno'.
+
+Nem toda função usa parâmetros; nem toda função tem um retorno
+
+Ou seja: Funções são ações executadas assim q são chamadas ou em decorrência de algum evento.
+
+- Uma função pode receber parâmetros e retornar um resultado
+
+___________________________________
+PARÂMETRO REAL E PARÂMETRO FORMAL
+___________________________________
+
+function parimpar(n) { // O n É O PARÂMETRO FORMAL
+	
+	if (n % 2 == 0) {
+		return 'par'
+	} else {
+		return 'ímpar'
+	}
+}
+
+// O CÓDIGO ABAIXO FUNCIONA COMO CHAMADA DA FUNÇÃO ACIMA
+
+let res = parimpar(11) // O 11 É O PARÂMETRO REAL
+
+NESSE CASO A VARIÁVEL res IRÁ RECEBER O return 'ímpar'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
