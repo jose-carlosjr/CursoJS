@@ -1,0 +1,40 @@
+functions
+objetos
+modularização
+RegEx
+JSON
+AJAX
+NodeJS
+Bibliotecas e frameworks
+
+______________________________________________________
+
+array:
+
+let num = [5, 8, 4]
+ou seja
+0 = 5
+1 = 8
+2 = 4
+
+object:
+
+let amigo = {nome:'José', sexo:'M', peso: 85.4, engordar(p){}}
+ou seja, ao invés de ter índices 0, 1, 2 e 3 eu tenho:
+
+nome: José
+sexo: M
+peso: 85.4
+engordar(): [function]
+
+
+
+
+
+
+
+
+
+
+
+
